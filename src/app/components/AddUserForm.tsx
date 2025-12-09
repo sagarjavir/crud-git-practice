@@ -23,6 +23,9 @@ const [formData, setFormData]=useReducer(formReducer, {})
                 <input type="text" onChange={setFormData} name="fname" placeholder="Enter your first name" className="border w-full px-5 py-3 focus:outline"/>
             </div>
             <div className="input-type">
+                <input type="text" onChange={setFormData} name="fname" placeholder="new Enter your first name" className="border w-full px-5 py-3 focus:outline"/>
+            </div>
+            <div className="input-type">
                 <input type="text" onChange={setFormData} name="lname" placeholder="Enter your last name" className="border w-full px-5 py-3 focus:outline"/>
             </div>
             <div className="input-type">

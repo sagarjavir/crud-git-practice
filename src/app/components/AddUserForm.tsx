@@ -56,6 +56,9 @@ const [formData, setFormData]=useReducer(formReducer, {})
             Add <span className="px-1"><BiPlus size={25}></BiPlus></span>
             </button>
 
+            <button className="flex justify-center">
+            Update <span className="px-1"><BiPlus size={25}></BiPlus></span>
+            </button>
         </form>
 
     )
